@@ -1,4 +1,4 @@
-package com.qeema.security;
+package com.qeema.restful;
 
 import java.util.HashSet;
 import java.util.List;
@@ -27,6 +27,7 @@ import com.qeema.payload.JwtResponse;
 import com.qeema.payload.LoginRequest;
 import com.qeema.payload.MessageResponse;
 import com.qeema.payload.SignupRequest;
+import com.qeema.security.JwtUtils;
 import com.qeema.service.RoleService;
 import com.qeema.service.UserDetailsImpl;
 import com.qeema.service.UserService;

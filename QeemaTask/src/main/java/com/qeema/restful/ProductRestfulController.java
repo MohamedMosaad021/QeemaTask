@@ -19,7 +19,7 @@ import com.qeema.exception.ResourceNotFoundException;
 import com.qeema.service.ProductService;
 
 @RestController
-@RequestMapping("/product")
+@RequestMapping("/api/product")
 public class ProductRestfulController {
 
 	@Autowired
