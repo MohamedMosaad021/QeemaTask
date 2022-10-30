@@ -35,7 +35,7 @@ import com.qeema.service.UserService;
 @CrossOrigin(origins = "*", maxAge = 3600)
 @RestController
 @RequestMapping("/api/auth")
-public class AuthController {
+public class AuthRestfulController {
 	
 	@Autowired
 	AuthenticationManager authenticationManager;
